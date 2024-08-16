@@ -47,7 +47,6 @@ img {
 
 body {
   background-color: #e8d9bf;
-  padding: 0 10px;
   font-feature-settings: "palt";
 }
 
@@ -93,9 +92,11 @@ a:hover {
 }
 
 /* 共通 */
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 h2 {
@@ -243,6 +244,10 @@ h3 {
 .event_list {
   display: flex;
   margin-bottom: 28px;
+}
+.event_list:last-child{
+  margin-bottom: 0px;
+
 }
 
 .event_list dt {
