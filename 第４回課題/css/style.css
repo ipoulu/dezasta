@@ -133,11 +133,13 @@ h2 {
 .about_us_text p {
   font-size: 16px;
   line-height: 1.62;
+
 }
 
 /* main_title */
 .main_title {
   margin: 105px auto;
+
 }
 
 .english_title {
@@ -152,11 +154,13 @@ h2 {
   text-align: center;
   margin: 25px 0;
   line-height: 1.1;
+  letter-spacing: .1em;
 }
 .main_text {
   font-size: 23px;
 text-align: center;
 line-height: 1.65;
+letter-spacing: .1em;
 }
 
 /* about us */
