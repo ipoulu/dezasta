@@ -389,7 +389,9 @@ footer p {
   /* margin-bottom: 5%; */
   font-size: 16px;
 }
-
+.mail-sp {
+  display: none;
+}
 .page_top {
   width: 100px;
   position: fixed;
@@ -520,7 +522,10 @@ footer p {
   .slick-prev {
     left: 5%;
   }
-
+  .footer_logo img {
+    /* width: 200px; */
+padding-left:10%;
+  }
   @media screen and (max-width:767px) {
 
     /* main_title */
@@ -763,17 +768,18 @@ footer p {
 
     .footer_logo img {
       width: 220px;
-
+padding-left: 0;
     }
 
     .footer_detail ol {
       margin-top: 35px;
       max-width: 100%;
       width: 100%;
-      font-size: 18px;
+      
     }
 
     .footer_detail li {
+      font-size: 18px;
       margin-bottom: 18px;
     }
 
@@ -787,4 +793,10 @@ footer p {
       right: 8%;
     }
   }
+  @media screen and (max-width:300px) {
+    .mail-sp {
+      display: block;
+    }
+
+}
 }
